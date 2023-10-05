@@ -30,3 +30,5 @@ class Video
         $this->nosaukums = $nosaukums;
     }
 }
+
+?>

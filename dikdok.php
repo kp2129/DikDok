@@ -14,3 +14,21 @@ class Komentārs
         $this->teksts = $teksts;
     }
 }
+
+class Video
+{
+    public $id;
+    public $url;
+    public $autora_id;
+    public $nosaukums;
+
+    function __construct($id, $url, $autora_id, $nosaukums)
+    {
+        $this->id = $id;
+        $this->url = $url;
+        $this->autora_id = $autora_id;
+        $this->nosaukums = $nosaukums;
+    }
+}
+
+?>
